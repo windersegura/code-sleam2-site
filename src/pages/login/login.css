@@ -1,0 +1,19 @@
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.login-form{
+    background-color: white;
+    border-radius: 1.5rem;
+    height: 35vh;
+    width: 50vh;
+}
+
+.login-form-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
