@@ -4,20 +4,20 @@ export default function Login () {
 
     return (
         <>
-            <main>
+            <div className='container'>
                 <form action="" className="login-form">
                     <div className="login-form-items">
                         <h1>Login</h1>
                         <label>Correo Electronico</label>
-                        <input type="text" placeholder="Correo Electronico"/>
+                        <input className='login-form-input' type="text" placeholder="Correo Electronico"/>
 
                         <label>Contraseña</label>
-                        <input type="text" placeholder="Contraseña" />
+                        <input className='login-form-input' type="password" placeholder="Contraseña" />
 
-                        <button>Iniciar Sesion</button>
+                        <button className='login-form-button'>Iniciar Sesion</button>
                     </div>
                 </form>
-            </main>
+            </div>
         </>
     )
 }
